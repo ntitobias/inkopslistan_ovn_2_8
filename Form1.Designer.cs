@@ -35,8 +35,8 @@
             this.tbxMängd = new System.Windows.Forms.TextBox();
             this.lblMängd = new System.Windows.Forms.Label();
             this.gbxVarutyp = new System.Windows.Forms.GroupBox();
-            this.rbnLösvikt = new System.Windows.Forms.RadioButton();
             this.rbnStycksak = new System.Windows.Forms.RadioButton();
+            this.rbnLösvikt = new System.Windows.Forms.RadioButton();
             this.btnLäggTill = new System.Windows.Forms.Button();
             this.lbxLista = new System.Windows.Forms.ListBox();
             this.tbxSumma = new System.Windows.Forms.TextBox();
@@ -103,17 +103,6 @@
             this.gbxVarutyp.TabStop = false;
             this.gbxVarutyp.Text = "Varutyp";
             // 
-            // rbnLösvikt
-            // 
-            this.rbnLösvikt.AutoSize = true;
-            this.rbnLösvikt.Location = new System.Drawing.Point(13, 22);
-            this.rbnLösvikt.Name = "rbnLösvikt";
-            this.rbnLösvikt.Size = new System.Drawing.Size(73, 21);
-            this.rbnLösvikt.TabIndex = 0;
-            this.rbnLösvikt.TabStop = true;
-            this.rbnLösvikt.Text = "Lösvikt";
-            this.rbnLösvikt.UseVisualStyleBackColor = true;
-            // 
             // rbnStycksak
             // 
             this.rbnStycksak.AutoSize = true;
@@ -124,6 +113,17 @@
             this.rbnStycksak.TabStop = true;
             this.rbnStycksak.Text = "Stycksak";
             this.rbnStycksak.UseVisualStyleBackColor = true;
+            // 
+            // rbnLösvikt
+            // 
+            this.rbnLösvikt.AutoSize = true;
+            this.rbnLösvikt.Location = new System.Drawing.Point(13, 22);
+            this.rbnLösvikt.Name = "rbnLösvikt";
+            this.rbnLösvikt.Size = new System.Drawing.Size(73, 21);
+            this.rbnLösvikt.TabIndex = 0;
+            this.rbnLösvikt.TabStop = true;
+            this.rbnLösvikt.Text = "Lösvikt";
+            this.rbnLösvikt.UseVisualStyleBackColor = true;
             // 
             // btnLäggTill
             // 
@@ -141,12 +141,12 @@
             this.lbxLista.ItemHeight = 16;
             this.lbxLista.Location = new System.Drawing.Point(251, 13);
             this.lbxLista.Name = "lbxLista";
-            this.lbxLista.Size = new System.Drawing.Size(222, 372);
+            this.lbxLista.Size = new System.Drawing.Size(365, 372);
             this.lbxLista.TabIndex = 8;
             // 
             // tbxSumma
             // 
-            this.tbxSumma.Location = new System.Drawing.Point(373, 403);
+            this.tbxSumma.Location = new System.Drawing.Point(516, 403);
             this.tbxSumma.Name = "tbxSumma";
             this.tbxSumma.Size = new System.Drawing.Size(100, 22);
             this.tbxSumma.TabIndex = 10;
@@ -154,7 +154,7 @@
             // lblSumma
             // 
             this.lblSumma.AutoSize = true;
-            this.lblSumma.Location = new System.Drawing.Point(262, 403);
+            this.lblSumma.Location = new System.Drawing.Point(430, 406);
             this.lblSumma.Name = "lblSumma";
             this.lblSumma.Size = new System.Drawing.Size(55, 17);
             this.lblSumma.TabIndex = 9;
@@ -164,7 +164,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(494, 450);
+            this.ClientSize = new System.Drawing.Size(637, 450);
             this.Controls.Add(this.tbxSumma);
             this.Controls.Add(this.lblSumma);
             this.Controls.Add(this.lbxLista);
